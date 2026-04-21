@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     trielshadaypapelaria.com.br.
-;; Exported:   2026-04-21 16:45:09
+;; Exported:   2026-04-21 16:51:05
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-trielshadaypapelaria.com.br	3600	IN	SOA	karl.ns.cloudflare.com. dns.cloudflare.com. 2052845650 10000 2400 604800 3600
+trielshadaypapelaria.com.br	3600	IN	SOA	karl.ns.cloudflare.com. dns.cloudflare.com. 2052845686 10000 2400 604800 3600
 
 ;; NS Records
 trielshadaypapelaria.com.br.	86400	IN	NS	karl.ns.cloudflare.com.
@@ -32,17 +32,18 @@ trielshadaypapelaria.com.br.	86400	IN	NS	tess.ns.cloudflare.com.
 
 ;; A Records
 api.trielshadaypapelaria.com.br.	3600	IN	A	0.0.0.0 ; cf_tags=cf-proxied:false
-trielshadaypapelaria.com.br.	1	IN	A	185.199.111.153 ; cf_tags=cf-proxied:true
-trielshadaypapelaria.com.br.	1	IN	A	185.199.109.153 ; cf_tags=cf-proxied:true
-trielshadaypapelaria.com.br.	1	IN	A	185.199.110.153 ; cf_tags=cf-proxied:true
-trielshadaypapelaria.com.br.	1	IN	A	185.199.108.153 ; cf_tags=cf-proxied:true
+trielshadaypapelaria.com.br.	1	IN	A	185.199.108.153 ; cf_tags=cf-proxied:false
+trielshadaypapelaria.com.br.	1	IN	A	185.199.110.153 ; cf_tags=cf-proxied:false
+trielshadaypapelaria.com.br.	1	IN	A	185.199.109.153 ; cf_tags=cf-proxied:false
+trielshadaypapelaria.com.br.	1	IN	A	185.199.111.153 ; cf_tags=cf-proxied:false
 
 ;; CNAME Records
-www.trielshadaypapelaria.com.br.	1	IN	CNAME	seuusuario.github.io. ; cf_tags=cf-proxied:true
+www.trielshadaypapelaria.com.br.	1	IN	CNAME	daniloichaves.github.io. ; cf_tags=cf-proxied:false
 
 ;; MX Records
 trielshadaypapelaria.com.br.	1	IN	MX	0 .
 
 ;; TXT Records
+_dmarc.trielshadaypapelaria.com.br.	300	IN	TXT	"v=DMARC1; p=none;"
 _dmarc.trielshadaypapelaria.com.br.	1	IN	TXT	"v=DMARC1; p=reject;"
 trielshadaypapelaria.com.br.	1	IN	TXT	"v=spf1 -all"

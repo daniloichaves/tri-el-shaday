@@ -856,6 +856,7 @@ section {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--primary);
+  display: none;
 }
 
 .btn-buy {
@@ -998,7 +999,7 @@ section {
   gap: 1.5rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  scrollbar-width: none;
+  display: block;
   -ms-overflow-style: none;
   padding-bottom: 1rem;
 }
@@ -1880,7 +1881,7 @@ section {
 }
 
 .offer-countdown {
-  display: flex;
+  display: none;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 2rem;
