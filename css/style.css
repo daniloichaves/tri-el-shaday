@@ -1009,10 +1009,10 @@ section {
 
 .testimonials-track {
   display: flex;
+  flex-wrap: nowrap;
   gap: 1.5rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  display: block;
   -ms-overflow-style: none;
   padding-bottom: 1rem;
 }
