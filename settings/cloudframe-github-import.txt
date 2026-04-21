@@ -1,0 +1,14 @@
+$ORIGIN trielshadaypapelaria.com.br.
+$TTL 3600
+
+; Root domain (GitHub Pages)
+@   IN  A     185.199.108.153
+@   IN  A     185.199.109.153
+@   IN  A     185.199.110.153
+@   IN  A     185.199.111.153
+
+; WWW apontando para GitHub Pages
+www IN  CNAME seuusuario.github.io.
+
+; API (backend - ajuste depois com seu IP real)
+api IN  A     0.0.0.0
