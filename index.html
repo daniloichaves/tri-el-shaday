@@ -106,14 +106,6 @@
         presentes personalizados — tudo para tornar seu dia mais especial e produtivo.
       </p>
 
-      <!-- Search Bar -->
-      <form class="search-bar-wrap" id="searchForm" role="search" aria-label="Buscar produtos">
-        <input type="text" placeholder="🔍 Buscar produtos..." aria-label="Campo de busca" />
-        <button type="submit">
-          <i class="fas fa-search" aria-hidden="true"></i> Buscar
-        </button>
-      </form>
-
       <div class="hero-actions">
         <a href="#produtos" class="btn btn-primary">
           <i class="fas fa-shopping-bag" aria-hidden="true"></i> Ver Produtos
@@ -231,20 +223,6 @@
   </div>
 </section>
 
-<!-- ========== OFFER BANNER ========== -->
-<div class="offer-section" aria-label="Oferta especial">
-  <h2>🔥 Oferta do Dia — Até 40% OFF!</h2>
-  <p>Aproveite descontos exclusivos em cadernos, canetas e muito mais. Oferta válida somente hoje!</p>
-  <div class="offer-countdown" aria-label="Contagem regressiva">
-    <div class="countdown-item">
-      <div class="countdown-number" id="cdHours">00</div>
-      <div class="countdown-label">horas</div>
-    </div>
-    <div class="countdown-item">
-      <div class="countdown-number" id="cdMinutes">00</div>
-      <div class="countdown-label">min</div>
-    </div>
-    <div class="countdown-item">
       <div class="countdown-number" id="cdSeconds">00</div>
       <div class="countdown-label">seg</div>
     </div>
@@ -270,6 +248,7 @@
       <button class="filter-btn" data-filter="escritorio">💼 Escritório</button>
       <button class="filter-btn" data-filter="arte">🎨 Arte & Criatividade</button>
       <button class="filter-btn" data-filter="presentes">🎁 Presentes</button>
+      <button class="filter-btn" data-filter="loja">🏬 Loja</button>
     </div>
 
     <div class="products-grid">
@@ -498,6 +477,146 @@
         </div>
       </article>
 
+      <!-- Loja 1 -->
+      <article class="product-card fade-up" data-category="loja">
+        <div class="product-img">
+          <img src="fotos/loja/5230593a-72ef-450e-afaa-ce5ab1b42774.jpg"
+               alt="Foto da loja Tri El Shaday 1" loading="lazy" />
+          <span class="product-badge badge-new">Loja</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.showToast('📸 Foto da loja adicionada aos destaques!')" aria-label="Destacar foto da loja">
+              <i class="fas fa-camera"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Loja</div>
+          <h3 class="product-name">Interior da Loja</h3>
+          <p class="product-desc">Um registro do ambiente da Tri El Shaday para mostrar nosso espaço e organização.</p>
+          <div class="product-footer">
+            <span class="product-price">Ambiente</span>
+            <button class="btn-buy" onclick="window.showToast('🏬 Categoria Loja selecionada!')">
+              <i class="fas fa-store" aria-hidden="true"></i> Ver
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Loja 2 -->
+      <article class="product-card fade-up" data-category="loja">
+        <div class="product-img">
+          <img src="fotos/loja/5cf2d950-1767-4eb7-a9ec-eb2875bd983d.jpg"
+               alt="Foto da loja Tri El Shaday 2" loading="lazy" />
+          <span class="product-badge badge-hot">Loja</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.showToast('📸 Foto da loja adicionada aos destaques!')" aria-label="Destacar foto da loja">
+              <i class="fas fa-camera"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Loja</div>
+          <h3 class="product-name">Espaço de Atendimento</h3>
+          <p class="product-desc">Imagem do balcão e da área de atendimento para apresentar a experiência da loja.</p>
+          <div class="product-footer">
+            <span class="product-price">Ambiente</span>
+            <button class="btn-buy" onclick="window.showToast('🏬 Categoria Loja selecionada!')">
+              <i class="fas fa-store" aria-hidden="true"></i> Ver
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Loja 3 -->
+      <article class="product-card fade-up" data-category="loja">
+        <div class="product-img">
+          <img src="fotos/loja/eaaa392a-3048-4284-86a9-865be39e17c3.jpg"
+               alt="Foto da loja Tri El Shaday 3" loading="lazy" />
+          <span class="product-badge badge-sale">Loja</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.showToast('📸 Foto da loja adicionada aos destaques!')" aria-label="Destacar foto da loja">
+              <i class="fas fa-camera"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Loja</div>
+          <h3 class="product-name">Detalhes do Ambiente</h3>
+          <p class="product-desc">Foto para destacar os detalhes visuais e o cuidado na apresentação do espaço.</p>
+          <div class="product-footer">
+            <span class="product-price">Ambiente</span>
+            <button class="btn-buy" onclick="window.showToast('🏬 Categoria Loja selecionada!')">
+              <i class="fas fa-store" aria-hidden="true"></i> Ver
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Loja 4 -->
+      <article class="product-card fade-up" data-category="loja">
+        <div class="product-img">
+          <img src="fotos/loja/ce477074-1037-4473-b8ea-68a7605c721e.jpg"
+               alt="Foto da loja Tri El Shaday 4" loading="lazy" />
+          <span class="product-badge badge-new">Loja</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.showToast('📸 Foto da loja adicionada aos destaques!')" aria-label="Destacar foto da loja">
+              <i class="fas fa-camera"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Loja</div>
+          <h3 class="product-name">Vitrine e Exposição</h3>
+          <p class="product-desc">Mostra a organização dos produtos e a identidade visual do espaço da Tri El Shaday.</p>
+          <div class="product-footer">
+            <span class="product-price">Ambiente</span>
+            <button class="btn-buy" onclick="window.showToast('🏬 Categoria Loja selecionada!')">
+              <i class="fas fa-store" aria-hidden="true"></i> Ver
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Loja 5 -->
+      <article class="product-card fade-up" data-category="loja">
+        <div class="product-img">
+          <img src="fotos/loja/fbad35dd-263a-449b-9a42-58e582d9a97e.jpg"
+               alt="Foto da loja Tri El Shaday 5" loading="lazy" />
+          <span class="product-badge badge-hot">Loja</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.showToast('📸 Foto da loja adicionada aos destaques!')" aria-label="Destacar foto da loja">
+              <i class="fas fa-camera"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Loja</div>
+          <h3 class="product-name">Vista Geral da Loja</h3>
+          <p class="product-desc">Uma visão geral do ambiente para apresentar o clima acolhedor da loja.</p>
+          <div class="product-footer">
+            <span class="product-price">Ambiente</span>
+            <button class="btn-buy" onclick="window.showToast('🏬 Categoria Loja selecionada!')">
+              <i class="fas fa-store" aria-hidden="true"></i> Ver
+            </button>
+          </div>
+        </div>
+      </article>
+
     </div><!-- end products-grid -->
   </div>
 </section>
@@ -715,7 +834,7 @@
         <div class="social-name">Facebook</div>
         <div class="social-handle">/trielshaday</div>
       </a>
-      <a href="https://wa.me/5511999999999" class="social-card" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="WhatsApp da Tri El Shaday">
+      <a href="https://wa.me/+5511963268197" class="social-card" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="WhatsApp da Tri El Shaday">
         <div class="social-icon social-wa"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
         <div class="social-name">WhatsApp</div>
         <div class="social-handle">(11) 99999-9999</div>
@@ -776,21 +895,21 @@
               <div class="contact-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
               <div class="contact-item-text">
                 <h4>Endereço</h4>
-                <p>Rua das Flores, 123 — Centro<br/>Sua Cidade, SP — Brasil</p>
+                <p>Av Lauzane Paulista, 119 - Lauzane Paulista<br/>Sao Paulo, SP - Brasil</p>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon" aria-hidden="true"><i class="fas fa-clock"></i></div>
               <div class="contact-item-text">
                 <h4>Horário de Funcionamento</h4>
-                <p>Segunda a Sexta: 8h às 18h<br/>Sábado: 8h às 13h</p>
+                <p>Segunda a Sexta: 8h às 18h<br/>Sábado: 8h às 13h<br/>Domingo: 8h às 13h</p>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon" aria-hidden="true"><i class="fas fa-phone"></i></div>
               <div class="contact-item-text">
                 <h4>Telefone</h4>
-                <p>(11) 99999-9999</p>
+                <p>(11) 963626-8197</p>
               </div>
             </div>
             <div class="contact-item">
@@ -810,7 +929,7 @@
           </div>
           <h3>Atendimento pelo WhatsApp</h3>
           <p>Prefere falar diretamente? Chame a gente no WhatsApp! Respondemos em minutos durante nosso horário de atendimento.</p>
-          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Tri%20El%20Shaday!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+          <a href="https://wa.me/+5511963268197?text=Ol%C3%A1%2C%20Tri%20El%20Shaday!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
              class="btn-whatsapp-card" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp">
             <i class="fab fa-whatsapp" aria-hidden="true"></i> Chamar no WhatsApp
           </a>
@@ -868,7 +987,7 @@
     </iframe>
     <div class="map-overlay-card" aria-label="Endereço da loja">
       <h4>📍 Tri El Shaday</h4>
-      <p>Rua das Flores, 123 — Centro<br/>Sua Cidade, SP — Brasil</p>
+      <p>Av Lauzane Paulista, 119 - Lauzane Paulista<br/>Sao Paulo, SP - Brasil</p>
     </div>
   </div>
 </div>
@@ -908,7 +1027,7 @@
         <a href="https://facebook.com/trielshaday" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Facebook">
           <i class="fab fa-facebook-f" aria-hidden="true"></i>
         </a>
-        <a href="https://wa.me/5511999999999" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="WhatsApp">
+        <a href="https://wa.me/+5511963268197" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="WhatsApp">
           <i class="fab fa-whatsapp" aria-hidden="true"></i>
         </a>
         <a href="https://tiktok.com/@trielshaday" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="TikTok">
@@ -946,7 +1065,7 @@
     <div class="footer-col">
       <h4>Atendimento</h4>
       <ul>
-        <li><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        <li><a href="https://wa.me/+5511963268197" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
         <li><a href="mailto:contato@trielshaday.com.br">E-mail</a></li>
         <li><a href="#contato">Formulário</a></li>
         <li><a href="#contato">Horários</a></li>
@@ -981,7 +1100,7 @@
       Olá! 👋 Como posso ajudar você hoje? Temos produtos incríveis esperando por você!
     </div>
     <div class="bubble-actions">
-      <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Tri%20El%20Shaday!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+      <a href="https://wa.me/+5511963268197?text=Ol%C3%A1%2C%20Tri%20El%20Shaday!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
          target="_blank" rel="noopener noreferrer" aria-label="Iniciar conversa no WhatsApp">
         <i class="fab fa-whatsapp" aria-hidden="true"></i> Iniciar Conversa
       </a>
@@ -1002,18 +1121,6 @@
 <div class="toast" id="toast" role="alert" aria-live="polite" aria-atomic="true">
   <i class="fas fa-check-circle" aria-hidden="true"></i>
   <span id="toastMsg"></span>
-</div>
-
-<!-- ========== COOKIE BANNER ========== -->
-<div class="cookie-banner hidden" id="cookieBanner" role="dialog" aria-label="Aviso de cookies" aria-modal="false">
-  <p>
-    🍪 Usamos cookies para melhorar sua experiência. Ao continuar, você concorda com nossa
-    <a href="#">Política de Privacidade</a>.
-  </p>
-  <div class="cookie-actions">
-    <button class="btn btn-outline" id="cookieDecline" style="padding:0.5rem 1rem;font-size:0.85rem;">Recusar</button>
-    <button class="btn btn-primary" id="cookieAccept" style="padding:0.5rem 1rem;font-size:0.85rem;">Aceitar</button>
-  </div>
 </div>
 
 <!-- Scripts -->

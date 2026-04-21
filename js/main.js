@@ -105,33 +105,6 @@
     });
   }
 
-  // ---- Cookie Banner ----
-  const cookieBanner = document.getElementById('cookieBanner');
-  const cookieAccept = document.getElementById('cookieAccept');
-  const cookieDecline = document.getElementById('cookieDecline');
-
-  if (!localStorage.getItem('tri-el-shaday-cookies')) {
-    setTimeout(() => {
-      if (cookieBanner) cookieBanner.classList.remove('hidden');
-    }, 2000);
-  } else {
-    if (cookieBanner) cookieBanner.classList.add('hidden');
-  }
-
-  if (cookieAccept) {
-    cookieAccept.addEventListener('click', () => {
-      localStorage.setItem('tri-el-shaday-cookies', 'accepted');
-      cookieBanner.classList.add('hidden');
-      showToast('✅ Preferências salvas!');
-    });
-  }
-  if (cookieDecline) {
-    cookieDecline.addEventListener('click', () => {
-      localStorage.setItem('tri-el-shaday-cookies', 'declined');
-      cookieBanner.classList.add('hidden');
-    });
-  }
-
   // ---- Product Filter ----
   const filterBtns = document.querySelectorAll('.filter-btn');
   const productCards = document.querySelectorAll('.product-card');

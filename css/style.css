@@ -201,20 +201,20 @@ h1, h2, h3, h4, h5 {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.75rem;
 }
 
 .logo-icon {
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
+  width: 56px;
+  height: 56px;
+  padding: 6px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  display: block;
   flex-shrink: 0;
   object-fit: contain;
+  box-shadow: 0 8px 24px var(--shadow);
 }
 
 .logo-text {
@@ -1633,6 +1633,33 @@ section {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
   max-width: 280px;
+}
+
+.footer-brand .logo-icon {
+  width: 72px;
+  height: 72px;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+@media (max-width: 540px) {
+  .nav-logo {
+    gap: 0.6rem;
+  }
+
+  .logo-icon {
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+    border-radius: 14px;
+  }
+
+  .footer-brand .logo-icon {
+    width: 64px;
+    height: 64px;
+    padding: 7px;
+    border-radius: 18px;
+  }
 }
 
 .footer-social {
