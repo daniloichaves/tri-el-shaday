@@ -7,7 +7,7 @@
 
   // ---- Configuration ----
   // Substitua pelo número real da loja (apenas dígitos, com DDI)
-  const WHATSAPP_PHONE = '5511999999999';
+  const WHATSAPP_PHONE = '5511963268197';
 
   // ---- Scroll Progress Bar ----
   const progressBar = document.getElementById('progressBar');
