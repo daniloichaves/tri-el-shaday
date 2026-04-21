@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tri El Shaday — Uma papelaria completa, pensada para inspirar criatividade e organização no dia a dia. Materiais escolares, escritório, artesanato e presentes personalizados." />
+  <meta name="keywords" content="papelaria, materiais escolares, itens de escritório, artesanato, presentes personalizados, Tri El Shaday" />
+  <meta property="og:title" content="Tri El Shaday — Papelaria Completa" />
+  <meta property="og:description" content="Qualidade, criatividade e organização em um só lugar." />
+  <meta property="og:type" content="website" />
+  <title>Tri El Shaday — Papelaria Completa ✏️</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✏️</text></svg>" />
+</head>
+<body>
+
+<!-- ========== SCROLL PROGRESS ========== -->
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ========== ANNOUNCEMENT BAR ========== -->
+<div class="announcement-bar" role="banner">
+  <i class="fas fa-tag"></i>
+  <span>🎉 Frete grátis em compras acima de R$80 | Use o WhatsApp para pedidos personalizados!</span>
+  <i class="fas fa-tag"></i>
+</div>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
+  <div class="nav-container">
+    <a href="#inicio" class="nav-logo" aria-label="Tri El Shaday — Página Inicial">
+      <div class="logo-icon" aria-hidden="true">✏️</div>
+      <div class="logo-text">
+        <span class="logo-name">Tri El Shaday</span>
+        <span class="logo-slogan">Papelaria Completa</span>
+      </div>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#produtos">Produtos</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#depoimentos">Depoimentos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema escuro/claro">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos." class="btn btn-whatsapp nav-cta" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== MOBILE MENU ========== -->
+<div class="mobile-menu" id="mobileMenu" role="menu" aria-hidden="true">
+  <a href="#inicio" role="menuitem">🏠 Início</a>
+  <a href="#sobre" role="menuitem">ℹ️ Sobre</a>
+  <a href="#produtos" role="menuitem">🛍️ Produtos</a>
+  <a href="#galeria" role="menuitem">🖼️ Galeria</a>
+  <a href="#depoimentos" role="menuitem">⭐ Depoimentos</a>
+  <a href="#contato" role="menuitem">📞 Contato</a>
+</div>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="inicio" aria-label="Seção principal">
+  <div class="hero-bg"></div>
+  <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+  <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+  <div class="hero-blob hero-blob-3" aria-hidden="true"></div>
+
+  <div class="hero-container">
+    <!-- Text -->
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-star" aria-hidden="true"></i>
+        <span>Papelaria premiada — Qualidade e Criatividade</span>
+      </div>
+
+      <h1 class="hero-title">
+        Inspire sua<br/>
+        <span class="gradient-text">Criatividade</span><br/>
+        e Organização
+      </h1>
+
+      <p class="hero-desc">
+        Na <strong>Tri El Shaday</strong>, cada detalhe conta. Materiais escolares, escritório, artesanato e
+        presentes personalizados — tudo para tornar seu dia mais especial e produtivo.
+      </p>
+
+      <!-- Search Bar -->
+      <form class="search-bar-wrap" id="searchForm" role="search" aria-label="Buscar produtos">
+        <input type="text" placeholder="🔍 Buscar produtos..." aria-label="Campo de busca" />
+        <button type="submit">
+          <i class="fas fa-search" aria-hidden="true"></i> Buscar
+        </button>
+      </form>
+
+      <div class="hero-actions">
+        <a href="#produtos" class="btn btn-primary">
+          <i class="fas fa-shopping-bag" aria-hidden="true"></i> Ver Produtos
+        </a>
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i> Fale Conosco
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="5000" data-suffix="+">0+</span>
+          <span class="stat-label">Produtos disponíveis</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="2000" data-suffix="+">0+</span>
+          <span class="stat-label">Clientes satisfeitos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="10" data-suffix=" anos">0 anos</span>
+          <span class="stat-label">De experiência</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visual -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-img-grid">
+        <div class="hero-img-main">
+          <img src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=800&q=80&auto=format&fit=crop"
+               alt="Papelaria moderna com produtos coloridos" loading="lazy" />
+        </div>
+        <div class="hero-img-card">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&q=80&auto=format&fit=crop"
+               alt="Cadernos e canetas coloridos" loading="lazy" />
+        </div>
+        <div class="hero-img-card">
+          <img src="https://images.unsplash.com/photo-1517971071642-34a2d3eaac27?w=400&q=80&auto=format&fit=crop"
+               alt="Artigos de escritório e papelaria" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="hero-float-card float-card-1">
+        <div class="float-card-icon" style="background:linear-gradient(135deg,#25D366,#128C7E)">
+          <i class="fab fa-whatsapp" style="color:#fff"></i>
+        </div>
+        <div>
+          <div style="font-weight:700;font-size:0.85rem">Atendimento Online</div>
+          <div style="color:var(--text-muted);font-size:0.75rem">Resposta em minutos</div>
+        </div>
+      </div>
+
+      <div class="hero-float-card float-card-2">
+        <div class="float-card-icon" style="background:linear-gradient(135deg,var(--accent-dark),#ff9500)">
+          <i class="fas fa-truck" style="color:#fff"></i>
+        </div>
+        <div>
+          <div style="font-weight:700;font-size:0.85rem">Frete Grátis</div>
+          <div style="color:var(--text-muted);font-size:0.75rem">acima de R$80</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT / FEATURES ========== -->
+<section class="features-section" id="sobre" aria-label="Sobre a Tri El Shaday">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Sobre Nós</span>
+      <h2 class="section-title">Por que escolher a <span>Tri El Shaday</span>?</h2>
+      <p class="section-subtitle">
+        Uma papelaria completa, pensada para inspirar criatividade e organização no dia a dia.
+        Ambiente acolhedor e moderno, ideal para quem busca qualidade e aquele toque especial em cada detalhe.
+      </p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card fade-up">
+        <div class="feature-icon feature-icon-1" aria-hidden="true">🎨</div>
+        <h3>Artigos Criativos</h3>
+        <p>Produtos para todas as idades que transformam tarefas simples em experiências prazerosas e criativas.</p>
+      </div>
+      <div class="feature-card fade-up">
+        <div class="feature-icon feature-icon-2" aria-hidden="true">🎁</div>
+        <h3>Presentes Personalizados</h3>
+        <p>Itens exclusivos e personalizados para surpreender em qualquer ocasião com muito estilo e carinho.</p>
+      </div>
+      <div class="feature-card fade-up">
+        <div class="feature-icon feature-icon-3" aria-hidden="true">✨</div>
+        <h3>Marcas de Confiança</h3>
+        <p>Trabalhamos com as melhores marcas do mercado, sempre atentos às tendências e novidades.</p>
+      </div>
+      <div class="feature-card fade-up">
+        <div class="feature-icon feature-icon-4" aria-hidden="true">💬</div>
+        <h3>Atendimento via WhatsApp</h3>
+        <p>Pedidos, dúvidas e personalizações diretamente pelo WhatsApp. Rápido, fácil e conveniente.</p>
+      </div>
+    </div>
+
+    <!-- About Description -->
+    <div style="margin-top:3rem;background:var(--card-bg);border-radius:var(--radius-lg);padding:2.5rem;border:1px solid var(--border);max-width:900px;margin-left:auto;margin-right:auto;" class="fade-up">
+      <p style="color:var(--text-muted);font-size:1rem;line-height:1.9;text-align:center;">
+        Uma papelaria completa, pensada para inspirar criatividade e organização no dia a dia. Oferecemos uma grande
+        variedade de materiais escolares, itens de escritório, artigos de papelaria fina e produtos criativos para todas
+        as idades. Nosso ambiente é acolhedor e moderno, ideal para quem busca qualidade, praticidade e aquele toque
+        especial em cada detalhe.<br/><br/>
+        Aqui você encontra desde <strong>cadernos, canetas e agendas</strong> até <strong>presentes personalizados,
+        itens de artesanato e acessórios exclusivos</strong> que transformam tarefas simples em experiências prazerosas.
+        Trabalhamos com marcas de confiança e estamos sempre atentos às tendências para trazer novidades que encantam.<br/><br/>
+        Seja para <em>estudar, trabalhar ou presentear</em>, nossa papelaria é o lugar certo para quem valoriza
+        organização com estilo e criatividade.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== OFFER BANNER ========== -->
+<div class="offer-section" aria-label="Oferta especial">
+  <h2>🔥 Oferta do Dia — Até 40% OFF!</h2>
+  <p>Aproveite descontos exclusivos em cadernos, canetas e muito mais. Oferta válida somente hoje!</p>
+  <div class="offer-countdown" aria-label="Contagem regressiva">
+    <div class="countdown-item">
+      <div class="countdown-number" id="cdHours">00</div>
+      <div class="countdown-label">horas</div>
+    </div>
+    <div class="countdown-item">
+      <div class="countdown-number" id="cdMinutes">00</div>
+      <div class="countdown-label">min</div>
+    </div>
+    <div class="countdown-item">
+      <div class="countdown-number" id="cdSeconds">00</div>
+      <div class="countdown-label">seg</div>
+    </div>
+  </div>
+  <a href="#produtos" class="btn btn-primary" style="background:rgba(26,26,46,0.85);box-shadow:none;">
+    <i class="fas fa-fire" aria-hidden="true"></i> Aproveitar Oferta
+  </a>
+</div>
+
+<!-- ========== PRODUCTS ========== -->
+<section class="products-section" id="produtos" aria-label="Nossos produtos">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Produtos</span>
+      <h2 class="section-title">Nosso <span>Catálogo</span></h2>
+      <p class="section-subtitle">Explore nossa seleção cuidadosa de produtos para estudar, trabalhar e criar.</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="products-filter" role="group" aria-label="Filtros de categoria">
+      <button class="filter-btn active" data-filter="all">🌟 Todos</button>
+      <button class="filter-btn" data-filter="escolar">📚 Escolar</button>
+      <button class="filter-btn" data-filter="escritorio">💼 Escritório</button>
+      <button class="filter-btn" data-filter="arte">🎨 Arte & Criatividade</button>
+      <button class="filter-btn" data-filter="presentes">🎁 Presentes</button>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Product 1 -->
+      <article class="product-card fade-up" data-category="escolar">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&q=80&auto=format&fit=crop"
+               alt="Kit de cadernos coloridos" loading="lazy" />
+          <span class="product-badge badge-new">Novo</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Kit de Cadernos Premium')" aria-label="Comprar Kit de Cadernos">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Escolar</div>
+          <h3 class="product-name">Kit de Cadernos Premium</h3>
+          <p class="product-desc">Set com 3 cadernos capa dura, 96 folhas cada. Cores vibrantes e papel de qualidade.</p>
+          <div class="product-footer">
+            <span class="product-price">R$ 49,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Kit de Cadernos Premium')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="product-card fade-up" data-category="escritorio">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=500&q=80&auto=format&fit=crop"
+               alt="Kit de canetas coloridas" loading="lazy" />
+          <span class="product-badge badge-hot">Popular</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Kit Canetas Coloridas 24 cores')" aria-label="Comprar Kit Canetas">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Escritório</div>
+          <h3 class="product-name">Kit Canetas 24 Cores</h3>
+          <p class="product-desc">Canetas gel premium com escrita suave. Ideais para anotações, arte e colorir.</p>
+          <div class="product-footer">
+            <span class="product-price">R$ 34,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Kit Canetas Coloridas 24 cores')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="product-card fade-up" data-category="arte">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500&q=80&auto=format&fit=crop"
+               alt="Kit de aquarelas e pincéis" loading="lazy" />
+          <span class="product-badge badge-new">Novo</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Kit Aquarela Profissional')" aria-label="Comprar Kit Aquarela">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Arte & Criatividade</div>
+          <h3 class="product-name">Kit Aquarela Profissional</h3>
+          <p class="product-desc">24 cores vivas com 3 pincéis de cerdas naturais. Para artistas e iniciantes.</p>
+          <div class="product-footer">
+            <span class="product-price">R$ 79,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Kit Aquarela Profissional')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 4 -->
+      <article class="product-card fade-up" data-category="escolar">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&q=80&auto=format&fit=crop"
+               alt="Agenda personalizada" loading="lazy" />
+          <span class="product-badge badge-sale">-20%</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Agenda Personalizada 2025')" aria-label="Comprar Agenda">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Escolar</div>
+          <h3 class="product-name">Agenda Personalizada 2025</h3>
+          <p class="product-desc">Agenda capa dura com layout semanal, espaço para notas e marcador de páginas.</p>
+          <div class="product-footer">
+            <span class="product-price">R$ 39,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Agenda Personalizada 2025')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 5 -->
+      <article class="product-card fade-up" data-category="presentes">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1563208958-c5af181f9eeb?w=500&q=80&auto=format&fit=crop"
+               alt="Kit presente personalizado" loading="lazy" />
+          <span class="product-badge badge-hot">Especial</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Kit Presente Personalizado')" aria-label="Comprar Kit Presente">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Presentes</div>
+          <h3 class="product-name">Kit Presente Personalizado</h3>
+          <p class="product-desc">Monte seu kit presente! Escolha os itens, embrulho e mensagem personalizada.</p>
+          <div class="product-footer">
+            <span class="product-price">A partir de R$ 59,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Kit Presente Personalizado')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 6 -->
+      <article class="product-card fade-up" data-category="arte">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=500&q=80&auto=format&fit=crop"
+               alt="Kit de artesanato scrapbooking" loading="lazy" />
+          <span class="product-badge badge-new">Novo</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Kit Artesanato Scrapbooking')" aria-label="Comprar Kit Artesanato">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Arte & Criatividade</div>
+          <h3 class="product-name">Kit Artesanato Scrapbooking</h3>
+          <p class="product-desc">Papéis texturizados, washi tapes, stickers e muito mais para seu scrapbook.</p>
+          <div class="product-footer">
+            <span class="product-price">R$ 54,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Kit Artesanato Scrapbooking')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 7 -->
+      <article class="product-card fade-up" data-category="escritorio">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1600077106724-946750eeaf3c?w=500&q=80&auto=format&fit=crop"
+               alt="Organizador de mesa moderno" loading="lazy" />
+          <span class="product-badge badge-sale">-15%</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Organizador de Mesa Premium')" aria-label="Comprar Organizador">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Escritório</div>
+          <h3 class="product-name">Organizador de Mesa Premium</h3>
+          <p class="product-desc">Organize canetas, tesouras e acessórios com estilo. Material resistente e design moderno.</p>
+          <div class="product-footer">
+            <span class="product-price">R$ 44,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Organizador de Mesa Premium')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 8 -->
+      <article class="product-card fade-up" data-category="presentes">
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=500&q=80&auto=format&fit=crop"
+               alt="Caneta personalizada gravada" loading="lazy" />
+          <span class="product-badge badge-hot">Top</span>
+          <div class="product-actions">
+            <button class="product-action-btn" onclick="window.buyNow('Caneta Personalizada Gravada')" aria-label="Comprar Caneta Personalizada">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="product-action-btn" onclick="window.showToast('❤️ Salvo nos favoritos!')" aria-label="Favoritar">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Presentes</div>
+          <h3 class="product-name">Caneta Personalizada</h3>
+          <p class="product-desc">Caneta executiva com gravação de nome ou mensagem. Presente ideal para qualquer ocasião.</p>
+          <div class="product-footer">
+            <span class="product-price">R$ 24,90</span>
+            <button class="btn-buy" onclick="window.buyNow('Caneta Personalizada Gravada')">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Pedir
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- end products-grid -->
+  </div>
+</section>
+
+<!-- ========== GALLERY ========== -->
+<section class="gallery-section" id="galeria" aria-label="Galeria de fotos">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Galeria</span>
+      <h2 class="section-title">Nossa <span>Loja em Fotos</span></h2>
+      <p class="section-subtitle">Conheça nosso espaço acolhedor e veja alguns dos nossos produtos e ambientes.</p>
+    </div>
+
+    <div class="gallery-grid" role="list" aria-label="Galeria de imagens">
+
+      <div class="gallery-item gallery-item-1 fade-up" role="listitem" tabindex="0" aria-label="Abrir foto da loja">
+        <img src="https://images.unsplash.com/photo-1519682577862-22b62b24e493?w=800&q=80&auto=format&fit=crop"
+             alt="Interior de uma papelaria moderna e aconchegante" loading="lazy" />
+        <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand-alt"></i></div>
+      </div>
+
+      <div class="gallery-item gallery-item-2 fade-up" role="listitem" tabindex="0" aria-label="Abrir foto de produtos">
+        <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&q=80&auto=format&fit=crop"
+             alt="Variedade de canetas coloridas" loading="lazy" />
+        <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand-alt"></i></div>
+      </div>
+
+      <div class="gallery-item gallery-item-3 fade-up" role="listitem" tabindex="0" aria-label="Abrir foto de cadernos">
+        <img src="https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?w=400&q=80&auto=format&fit=crop"
+             alt="Cadernos e organizadores" loading="lazy" />
+        <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand-alt"></i></div>
+      </div>
+
+      <div class="gallery-item gallery-item-4 fade-up" role="listitem" tabindex="0" aria-label="Abrir foto de artesanato">
+        <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=400&q=80&auto=format&fit=crop"
+             alt="Material de artesanato criativo" loading="lazy" />
+        <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand-alt"></i></div>
+      </div>
+
+      <div class="gallery-item gallery-item-5 fade-up" role="listitem" tabindex="0" aria-label="Abrir foto de materiais escolares">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a814c963?w=400&q=80&auto=format&fit=crop"
+             alt="Materiais escolares organizados" loading="lazy" />
+        <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand-alt"></i></div>
+      </div>
+
+      <div class="gallery-item gallery-item-6 fade-up" role="listitem" tabindex="0" aria-label="Abrir foto de presentes">
+        <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400&q=80&auto=format&fit=crop"
+             alt="Embrulhos e presentes personalizados" loading="lazy" />
+        <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand-alt"></i></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== LIGHTBOX ========== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização de imagem">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar visualização">
+    <i class="fas fa-times" aria-hidden="true"></i>
+  </button>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+</div>
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="testimonials-section" id="depoimentos" aria-label="Depoimentos de clientes">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Depoimentos</span>
+      <h2 class="section-title">O que nossos <span>Clientes Dizem</span></h2>
+      <p class="section-subtitle">A satisfação dos nossos clientes é nossa maior recompensa.</p>
+    </div>
+
+    <div class="testimonials-track" id="testimonialsTrack" role="list">
+
+      <div class="testimonial-card" role="listitem">
+        <span class="quote-icon" aria-hidden="true">"</span>
+        <div class="testimonial-stars" aria-label="5 estrelas">
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Encontrei tudo que precisava para o meu filho começar as aulas. Qualidade incrível nos cadernos e o
+          atendimento via WhatsApp é super rápido! Adorei a experiência de compra."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b1e5?w=100&q=80&auto=format&fit=crop&facepad=3"
+                 alt="Foto de Ana Lima" loading="lazy" />
+          </div>
+          <div>
+            <div class="author-name">Ana Lima</div>
+            <div class="author-role">Mãe e cliente fiel</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card" role="listitem">
+        <span class="quote-icon" aria-hidden="true">"</span>
+        <div class="testimonial-stars" aria-label="5 estrelas">
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Comprei um kit presente personalizado e ficou simplesmente lindo! A embalagem é caprichada e o
+          produto veio exatamente como eu pedi. Super recomendo para presentes especiais!"
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&auto=format&fit=crop&facepad=3"
+                 alt="Foto de Carlos Silva" loading="lazy" />
+          </div>
+          <div>
+            <div class="author-name">Carlos Silva</div>
+            <div class="author-role">Designer Gráfico</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card" role="listitem">
+        <span class="quote-icon" aria-hidden="true">"</span>
+        <div class="testimonial-stars" aria-label="5 estrelas">
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Já compro na Tri El Shaday há 3 anos! O kit de aquarelas que adquiri é de qualidade profissional.
+          O ambiente da loja é lindo, organizado e aconchegante. Não troco por nada!"
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80&auto=format&fit=crop&facepad=3"
+                 alt="Foto de Juliana Costa" loading="lazy" />
+          </div>
+          <div>
+            <div class="author-name">Juliana Costa</div>
+            <div class="author-role">Artista & Ilustradora</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card" role="listitem">
+        <span class="quote-icon" aria-hidden="true">"</span>
+        <div class="testimonial-stars" aria-label="5 estrelas">
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Comprei organizadores de mesa para meu escritório em casa e ficaram perfeitos! Produtos de boa qualidade
+          com preços justos. O atendimento foi muito gentil e cuidadoso."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80&auto=format&fit=crop&facepad=3"
+                 alt="Foto de Roberto Mendes" loading="lazy" />
+          </div>
+          <div>
+            <div class="author-name">Roberto Mendes</div>
+            <div class="author-role">Advogado</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card" role="listitem">
+        <span class="quote-icon" aria-hidden="true">"</span>
+        <div class="testimonial-stars" aria-label="5 estrelas">
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+          <i class="fas fa-star star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Fiz meu scrapbook com o kit da Tri El Shaday e minha família adorou! Os papéis são lindos, as washi tapes
+          têm designs incríveis. Vou voltar para comprar mais com certeza!"
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80&auto=format&fit=crop&facepad=3"
+                 alt="Foto de Fernanda Souza" loading="lazy" />
+          </div>
+          <div>
+            <div class="author-name">Fernanda Souza</div>
+            <div class="author-role">Professora</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end track -->
+
+    <div class="testimonials-nav">
+      <button class="t-nav-btn" id="tPrev" aria-label="Depoimento anterior">
+        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+      </button>
+      <button class="t-nav-btn" id="tNext" aria-label="Próximo depoimento">
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SOCIAL MEDIA ========== -->
+<section class="social-section" aria-label="Redes sociais">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" style="background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.3);">Redes Sociais</span>
+      <h2 class="section-title">Siga a <span>Tri El Shaday</span></h2>
+      <p class="section-subtitle">Fique por dentro das novidades, promoções e inspirações nas nossas redes!</p>
+    </div>
+
+    <div class="social-cards" role="list">
+      <a href="https://instagram.com/triel.shaday" class="social-card" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Instagram da Tri El Shaday">
+        <div class="social-icon social-ig"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+        <div class="social-name">Instagram</div>
+        <div class="social-handle">@triel.shaday</div>
+      </a>
+      <a href="https://facebook.com/trielshaday" class="social-card" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Facebook da Tri El Shaday">
+        <div class="social-icon social-fb"><i class="fab fa-facebook-f" aria-hidden="true"></i></div>
+        <div class="social-name">Facebook</div>
+        <div class="social-handle">/trielshaday</div>
+      </a>
+      <a href="https://wa.me/5511999999999" class="social-card" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="WhatsApp da Tri El Shaday">
+        <div class="social-icon social-wa"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+        <div class="social-name">WhatsApp</div>
+        <div class="social-handle">(11) 99999-9999</div>
+      </a>
+      <a href="https://tiktok.com/@trielshaday" class="social-card" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="TikTok da Tri El Shaday">
+        <div class="social-icon social-tt"><i class="fab fa-tiktok" aria-hidden="true"></i></div>
+        <div class="social-name">TikTok</div>
+        <div class="social-handle">@trielshaday</div>
+      </a>
+      <a href="https://youtube.com/@trielshaday" class="social-card" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="YouTube da Tri El Shaday">
+        <div class="social-icon social-yt"><i class="fab fa-youtube" aria-hidden="true"></i></div>
+        <div class="social-name">YouTube</div>
+        <div class="social-handle">@trielshaday</div>
+      </a>
+    </div>
+
+    <!-- Instagram Feed Preview -->
+    <p class="social-posts-title">📸 Últimas do Instagram</p>
+    <div class="social-posts-grid" aria-label="Fotos do Instagram">
+      <div class="social-post">
+        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&q=80&auto=format&fit=crop" alt="Post Instagram — cadernos" loading="lazy" />
+        <div class="social-post-overlay"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+      </div>
+      <div class="social-post">
+        <img src="https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=300&q=80&auto=format&fit=crop" alt="Post Instagram — canetas" loading="lazy" />
+        <div class="social-post-overlay"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+      </div>
+      <div class="social-post">
+        <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=300&q=80&auto=format&fit=crop" alt="Post Instagram — arte" loading="lazy" />
+        <div class="social-post-overlay"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+      </div>
+      <div class="social-post">
+        <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=300&q=80&auto=format&fit=crop" alt="Post Instagram — artesanato" loading="lazy" />
+        <div class="social-post-overlay"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section class="contact-section" id="contato" aria-label="Contato e WhatsApp">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Contato</span>
+      <h2 class="section-title">Fale <span>Conosco</span></h2>
+      <p class="section-subtitle">Estamos prontos para atender você. Entre em contato por WhatsApp ou preencha o formulário.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Left: info + whatsapp card -->
+      <div>
+        <div class="contact-info">
+          <h3>Informações de Contato</h3>
+          <p>Entre em contato conosco pelos canais abaixo ou venha nos visitar!</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-item-text">
+                <h4>Endereço</h4>
+                <p>Rua das Flores, 123 — Centro<br/>Sua Cidade, SP — Brasil</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="fas fa-clock"></i></div>
+              <div class="contact-item-text">
+                <h4>Horário de Funcionamento</h4>
+                <p>Segunda a Sexta: 8h às 18h<br/>Sábado: 8h às 13h</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="fas fa-phone"></i></div>
+              <div class="contact-item-text">
+                <h4>Telefone</h4>
+                <p>(11) 99999-9999</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true"><i class="fas fa-envelope"></i></div>
+              <div class="contact-item-text">
+                <h4>E-mail</h4>
+                <p>contato@trielshaday.com.br</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp Card -->
+        <div class="whatsapp-card fade-up">
+          <div class="whatsapp-card-icon" aria-hidden="true">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <h3>Atendimento pelo WhatsApp</h3>
+          <p>Prefere falar diretamente? Chame a gente no WhatsApp! Respondemos em minutos durante nosso horário de atendimento.</p>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Tri%20El%20Shaday!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+             class="btn-whatsapp-card" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i> Chamar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: contact form -->
+      <div class="contact-form fade-up">
+        <h3>Enviar Mensagem</h3>
+        <form id="contactForm" novalidate aria-label="Formulário de contato">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contactName">Nome *</label>
+              <input type="text" id="contactName" placeholder="Seu nome" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">E-mail</label>
+              <input type="email" id="contactEmail" placeholder="seu@email.com" autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Assunto *</label>
+            <select id="contactSubject" required>
+              <option value="">Selecione o assunto</option>
+              <option value="Pedido de produto">Pedido de produto</option>
+              <option value="Presente personalizado">Presente personalizado</option>
+              <option value="Informações gerais">Informações gerais</option>
+              <option value="Reclamação ou sugestão">Reclamação ou sugestão</option>
+              <option value="Outros">Outros</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Mensagem *</label>
+            <textarea id="contactMessage" placeholder="Como podemos ajudar você?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-whatsapp" style="width:100%;justify-content:center;">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i> Enviar pelo WhatsApp
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== MAP ========== -->
+<div class="map-section" aria-label="Mapa de localização">
+  <div class="map-wrapper">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0973553816975!2d-46.65601578502184!3d-23.56275406795382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1624000000000!5m2!1spt-BR!2sbr"
+      title="Localização da Tri El Shaday no mapa"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <div class="map-overlay-card" aria-label="Endereço da loja">
+      <h4>📍 Tri El Shaday</h4>
+      <p>Rua das Flores, 123 — Centro<br/>Sua Cidade, SP — Brasil</p>
+    </div>
+  </div>
+</div>
+
+<!-- ========== NEWSLETTER (offer section) ========== -->
+<div style="background:var(--bg-alt);padding:4rem 1.5rem;text-align:center;" aria-label="Newsletter">
+  <div style="max-width:600px;margin:0 auto;">
+    <span class="section-tag">Newsletter</span>
+    <h2 style="font-size:clamp(1.5rem,4vw,2rem);margin:0.75rem 0;">Receba Novidades e Promoções 🎁</h2>
+    <p style="color:var(--text-muted);margin-bottom:1.5rem;">Cadastre seu e-mail e fique por dentro de todas as nossas ofertas exclusivas e lançamentos!</p>
+    <form class="newsletter-form" id="newsletterForm" novalidate aria-label="Formulário de newsletter">
+      <input type="email" placeholder="📧 seu@email.com" required aria-label="Seu e-mail" />
+      <button type="submit" class="btn btn-primary">
+        <i class="fas fa-paper-plane" aria-hidden="true"></i> Quero Receber!
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-grid">
+    <!-- Brand -->
+    <div class="footer-brand">
+      <a href="#inicio" class="nav-logo" aria-label="Tri El Shaday">
+        <div class="logo-icon" aria-hidden="true">✏️</div>
+        <div class="logo-text">
+          <span class="logo-name">Tri El Shaday</span>
+          <span class="logo-slogan">Papelaria Completa</span>
+        </div>
+      </a>
+      <p>Uma papelaria completa, pensada para inspirar criatividade e organização no dia a dia. Qualidade, estilo e carinho em cada produto.</p>
+      <div class="footer-social" role="list" aria-label="Redes sociais">
+        <a href="https://instagram.com/triel.shaday" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Instagram">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://facebook.com/trielshaday" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Facebook">
+          <i class="fab fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="https://wa.me/5511999999999" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        <a href="https://tiktok.com/@trielshaday" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="TikTok">
+          <i class="fab fa-tiktok" aria-hidden="true"></i>
+        </a>
+        <a href="https://youtube.com/@trielshaday" class="footer-social-link" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="YouTube">
+          <i class="fab fa-youtube" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-col">
+      <h4>Produtos</h4>
+      <ul>
+        <li><a href="#produtos">Materiais Escolares</a></li>
+        <li><a href="#produtos">Artigos de Escritório</a></li>
+        <li><a href="#produtos">Arte & Criatividade</a></li>
+        <li><a href="#produtos">Presentes Personalizados</a></li>
+        <li><a href="#produtos">Artesanato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>A Loja</h4>
+      <ul>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#contato">Localização</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Atendimento</h4>
+      <ul>
+        <li><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        <li><a href="mailto:contato@trielshaday.com.br">E-mail</a></li>
+        <li><a href="#contato">Formulário</a></li>
+        <li><a href="#contato">Horários</a></li>
+        <li><a href="#contato">Trocas e Devoluções</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <strong>Tri El Shaday</strong> — Papelaria Completa. Todos os direitos reservados.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacidade</a>
+      <a href="#">Termos de Uso</a>
+      <a href="#">Cookies</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== WHATSAPP FLOATING WIDGET ========== -->
+<div class="whatsapp-float" role="complementary" aria-label="Atendimento WhatsApp">
+  <div class="whatsapp-bubble" id="waBubble" aria-live="polite">
+    <div class="bubble-header">
+      <div class="bubble-avatar" aria-hidden="true">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <div>
+        <div class="bubble-name">Tri El Shaday</div>
+        <div class="bubble-status">● Online agora</div>
+      </div>
+    </div>
+    <div class="bubble-message">
+      Olá! 👋 Como posso ajudar você hoje? Temos produtos incríveis esperando por você!
+    </div>
+    <div class="bubble-actions">
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Tri%20El%20Shaday!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+         target="_blank" rel="noopener noreferrer" aria-label="Iniciar conversa no WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i> Iniciar Conversa
+      </a>
+    </div>
+  </div>
+
+  <button class="whatsapp-float-btn" id="waToggle" aria-label="Abrir chat WhatsApp" aria-expanded="false">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </button>
+</div>
+
+<!-- ========== BACK TO TOP ========== -->
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+<!-- ========== TOAST ========== -->
+<div class="toast" id="toast" role="alert" aria-live="polite" aria-atomic="true">
+  <i class="fas fa-check-circle" aria-hidden="true"></i>
+  <span id="toastMsg"></span>
+</div>
+
+<!-- ========== COOKIE BANNER ========== -->
+<div class="cookie-banner hidden" id="cookieBanner" role="dialog" aria-label="Aviso de cookies" aria-modal="false">
+  <p>
+    🍪 Usamos cookies para melhorar sua experiência. Ao continuar, você concorda com nossa
+    <a href="#">Política de Privacidade</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="btn btn-outline" id="cookieDecline" style="padding:0.5rem 1rem;font-size:0.85rem;">Recusar</button>
+    <button class="btn btn-primary" id="cookieAccept" style="padding:0.5rem 1rem;font-size:0.85rem;">Aceitar</button>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/main.js" defer></script>
+</body>
+</html>
