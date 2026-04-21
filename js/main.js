@@ -5,6 +5,10 @@
 (function () {
   'use strict';
 
+  // ---- Configuration ----
+  // Substitua pelo número real da loja (apenas dígitos, com DDI)
+  const WHATSAPP_PHONE = '5511999999999';
+
   // ---- Scroll Progress Bar ----
   const progressBar = document.getElementById('progressBar');
   window.addEventListener('scroll', () => {
@@ -206,11 +210,16 @@
       const name = contactForm.querySelector('#contactName').value.trim();
       const subject = contactForm.querySelector('#contactSubject').value;
       const message = contactForm.querySelector('#contactMessage').value.trim();
-      const phone = '5511999999999'; // substitua pelo número real
+
+      if (!name || !subject || !message) {
+        showToast('⚠️ Preencha todos os campos obrigatórios.');
+        return;
+      }
+
       const text = encodeURIComponent(
         `Olá! Meu nome é *${name}*.\n\n*Assunto:* ${subject}\n\n*Mensagem:* ${message}`
       );
-      window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
+      window.open(`https://wa.me/${WHATSAPP_PHONE}?text=${text}`, '_blank');
       showToast('💬 Abrindo WhatsApp...');
       contactForm.reset();
     });
@@ -322,11 +331,10 @@
 
   // ---- Buy Now (redirect to WhatsApp) ----
   window.buyNow = function (productName) {
-    const phone = '5511999999999'; // substitua pelo número real
     const text = encodeURIComponent(
       `Olá! Tenho interesse no produto: *${productName}*. Poderia me dar mais informações?`
     );
-    window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
+    window.open(`https://wa.me/${WHATSAPP_PHONE}?text=${text}`, '_blank');
   };
 
   // ---- Stats Counter Animation ----
